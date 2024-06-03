@@ -85,5 +85,37 @@ console.log(GayatriMath.random());
 console.log(GayatriMath.random());
 console.log(GayatriMath.random());
 
-// Assignment
-// Make a function for Substraction, Multiplication and Division
+var fullName = "Tom" + "Hanks";
+var fullName2 = "Tom" / "Hanks";
+var definitelyAnArray = [1, 2, 3, 4, 5, 6] + "__99__ABCD";
+var notAnArray = "[1, 2, 3, 4, 5, 6]" + " __99__ABCD";
+var num1 = 1;
+var str1 = "1";
+console.log("IT PRNTS A STRING ONLY");
+console.log(2);
+console.log(fullName);
+console.log(fullName2);
+console.log(definitelyAnArray);
+console.log(notAnArray);
+console.log(num1 + 1);
+console.log(str1 + 1);
+
+var Gayatri = {
+  class: 8,
+  board: "CIE",
+  strengths: ["Maths", "Definitely Substraction", "Programming"],
+  favourite_numbers: [10, 30, 555],
+};
+
+var GayatriInAnArray = [
+  8, // 0
+  "CIE", // 1
+  ["Maths", "Definitely Substraction", "Programming"], // 2
+  [10, 30, 555], // 3
+];
+
+console.log(Gayatri.class);
+console.log(Gayatri.board);
+console.log(Gayatri.strengths);
+
+console.log(GayatriInAnArray[2]);
